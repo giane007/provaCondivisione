@@ -71,3 +71,30 @@ try {
     // error_log($e->getMessage());
     echo "A DB error occured. Please try again later. ";
 }
+//MODIFICA FATTA DA GIANESELLA RICCARDO
+/***************************************************************
+ * COMMENTO FINALE
+ *
+ * Questo script utilizza PHP e PDO per gestire le principali
+ * operazioni di interazione con un database MySQL.
+ * In particolare vengono eseguite le operazioni CRUD:
+ *
+ * - READ: lettura di tutti gli studenti e lettura filtrata
+ *   tramite parametro (prepared statement)
+ * - CREATE: inserimento di un nuovo studente con data di
+ *   iscrizione generata automaticamente dal database
+ * - UPDATE: aggiornamento della media di uno studente
+ * - DELETE: eliminazione di uno studente dal database
+ *
+ * L'uso di PDO e delle query preparate migliora la sicurezza
+ * dell'applicazione, riducendo il rischio di SQL Injection.
+ * La gestione delle eccezioni consente di intercettare eventuali
+ * errori di connessione o di esecuzione delle query.
+ *
+ * Il codice è strutturato in modo lineare e leggibile, con
+ * sezioni ben separate e commentate per facilitare la
+ * comprensione, la manutenzione e possibili estensioni future,
+ * come l'integrazione con form HTML o la suddivisione in più file.
+ *
+ * Fine dello script.
+ ***************************************************************/
